@@ -1,0 +1,54 @@
+{
+  "source": "Tunisia_cash_budget_v1.1.html",
+  "seedVersion": 1,
+  "currency": "TND",
+  "budget": 690,
+  "categories": [
+    {
+      "id": "groceries",
+      "name": "Groceries",
+      "e": "🛒"
+    },
+    {
+      "id": "food",
+      "name": "Eating out",
+      "e": "🍽️"
+    },
+    {
+      "id": "coffee",
+      "name": "Café",
+      "e": "☕"
+    },
+    {
+      "id": "transport",
+      "name": "Transport",
+      "e": "🚕"
+    },
+    {
+      "id": "shopping",
+      "name": "Shopping",
+      "e": "🛍️"
+    },
+    {
+      "id": "bills",
+      "name": "Bills",
+      "e": "🧾"
+    },
+    {
+      "id": "health",
+      "name": "Pharmacy",
+      "e": "💊"
+    },
+    {
+      "id": "fun",
+      "name": "Leisure",
+      "e": "🎉"
+    },
+    {
+      "id": "other",
+      "name": "Other",
+      "e": "📦"
+    }
+  ],
+  "tx": []
+}

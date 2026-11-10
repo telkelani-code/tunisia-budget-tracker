@@ -1,0 +1,38 @@
+[
+  {"name": "carrefour-ttc", "expected": 23.45, "lines": [
+    "CARREFOUR MARKET", "La Marsa - Tunis", "MF: 1234567/A/M/000", "Tel: 71 123 456", "",
+    "Ticket N° 0045  Caisse 03", "10/11/2026  18:42", "--------------------------------",
+    "LAIT DELICE 1L      2 x 1.350   2.700", "PAIN DE MIE                    2.450", "YAOURT VITALAIT x4             3.200",
+    "HUILE OLIVE 1L                12.900", "EAU SAFIA 1.5L                 2.200", "--------------------------------",
+    "Articles: 6", "TOTAL TTC                     23.450", "ESPECES                       50.000", "RENDU                         26.550",
+    "TVA 19%                        3.744", "", "Merci de votre visite"]},
+  {"name": "monoprix-net-a-payer", "expected": 87.32, "lines": [
+    "MONOPRIX", "Avenue Habib Bourguiba", "Tel 71 333 222", "Date: 08/11/2026 11:05",
+    "--------------------------------", "COUSCOUS MOYEN 1KG             1.980", "THON EL MAZRAA 160G           4.650",
+    "FROMAGE PRESIDENT             9.800", "POULET ENTIER                 21.400", "LESSIVE 3KG                   26.900",
+    "CAFE BONDIN 250G             10.190", "FRUITS ET LEGUMES             12.400", "--------------------------------",
+    "SOUS-TOTAL                   87.320", "REMISE                         0.000", "NET A PAYER          87,320 DT",
+    "ESPECES                     100.000", "MONNAIE RENDUE               12.680"]},
+  {"name": "pharmacie-total", "expected": 14.7, "lines": [
+    "PHARMACIE EL AMEN", "Rue de Marseille Tunis", "Tel: 71 444 555", "", "DOLIPRANE 1000MG               3.450",
+    "VITAMINE C UPSA                5.250", "SERUM PHYSIOLOGIQUE            5.000", "TIMBRE FISCAL                  1.000",
+    "--------------------------------", "TOTAL :                       14.700", "Reglement: Especes"]},
+  {"name": "cafe-a-payer", "expected": 7.5, "lines": [
+    "CAFE DE PARIS", "Tunis Centre", "Table 4    09/11/2026 09:12", "", "2 EXPRESS                      3.000",
+    "1 CAPUCIN                      2.500", "1 EAU MINERALE 0.5L            2.000", "--------------------------------",
+    "A PAYER                     7.500 DT", "Merci et a bientot"]},
+  {"name": "english-change", "expected": 44.5, "lines": [
+    "CITY BOOKSTORE", "12 Main Street", "Receipt #4821   11/09/2026", "", "Notebook A5                     6.90",
+    "Pens (pack of 10)               8.40", "Paperback novel                25.90", "--------------------------------",
+    "Subtotal                       41.20", "Tax 8%                          3.30", "TOTAL                          44.50",
+    "Cash                           50.00", "Change                          5.50", "Thank you!"]},
+  {"name": "total-next-line", "expected": 156.9, "lines": [
+    "MAGASIN GENERAL", "Ariana", "Ticket 7781  07/11/2026", "", "RIZ 5KG                       11.500",
+    "SUCRE 2KG                      3.400", "VIANDE AGNEAU 2KG             78.000", "DETERGENT                     14.000",
+    "COUCHES BEBE                  50.000", "--------------------------------", "NET A PAYER", "156.900",
+    "ESPECES                      160.000", "RENDU                          3.100"]},
+  {"name": "thousands", "expected": 1245.8, "lines": [
+    "ELECTRO SHOP", "Sousse", "Facture 2026-1182", "", "REFRIGERATEUR 300L          1 049,000",
+    "LIVRAISON                      30,000", "GARANTIE 2 ANS                166,800", "--------------------------------",
+    "TOTAL TTC                   1 245,800", "ESPECES                     1 250,000", "RENDU                           4,200"]}
+]

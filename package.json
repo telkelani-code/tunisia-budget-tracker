@@ -1,0 +1,17 @@
+{
+  "name": "tunisia-budget-tracker",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Offline cash budget for iPhone with on-device receipt scanning (TND).",
+  "type": "module",
+  "scripts": {
+    "start": "node tests/serve.mjs 8080",
+    "test": "node tests/parser.test.mjs && node tests/e2e.test.mjs",
+    "test:parser": "node tests/parser.test.mjs",
+    "test:e2e": "node tests/e2e.test.mjs",
+    "fixtures": "node tests/make-fixtures.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.40.0"
+  }
+}
